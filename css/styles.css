@@ -536,4 +536,11 @@ button:focus {
     background-color: #404bbf;
     border-radius: 2px;
     position: absolute;
+    display: block;
+    width: 100%;
+}
+
+.current {
+    position: relative;
+    color: значення;
 }
