@@ -493,7 +493,7 @@ button:focus {
     overflow: hidden;
 }
 
-.list-portfolio-img:hover {
+.list-portfolio-img:hover .div-app-p{
     transform: translateY(0%);
 }
 
