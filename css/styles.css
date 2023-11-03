@@ -36,7 +36,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-  
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -441,25 +440,14 @@ button:focus {
 .naw-list-after-logo {
     gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* .naw-list-after-logo::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    position: relative;
     color: #404bbf;
-} */
+}
 
 .advantages-text-li {
     display: flex;
     gap: 24px;
-
 }
+
 
 .heder-page {
     border-bottom: 1px solid #e7e9fc;
@@ -500,10 +488,19 @@ button:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.list-portfolio-img::after {
+    transform: translateY(0%);
+}
+
 .div-app-img {
     position: relative;
     overflow: hidden;
 }
+
+.div-app-img:hover {
+    transform: translateY(0%);
+}
+
 
 .div-app-p {
     position: absolute;
@@ -543,6 +540,5 @@ button:focus {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    position: relative;
-    color: #404bbf;
+    position: absolute;
 }
