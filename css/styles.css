@@ -537,10 +537,4 @@ button:focus {
     border-radius: 2px;
     position: absolute;
     display: block;
-    width: 100%;
-}
-
-.current {
-    position: relative;
-    color: значення;
 }
